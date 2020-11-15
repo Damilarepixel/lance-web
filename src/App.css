@@ -1,38 +1,118 @@
-.App {
-  text-align: center;
+
+
+
+/* Colours */
+:root {
+  --main: #011A4C;
+  --white: #ffffff;
+  --body-text: #343434;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Fonts */
+:root {
+  --body-font: 'Montserrat', sans-serif;
+  --hero-font: 4.125rem;
+  --sub-font: 2.125rem;
+  --body-font: 0.9375rem;
+  --other-font: 1.0625rem; 
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Responsiveness variables */
+@media screen and (max-width: 768px){
+  
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+
+/*Basics*/
+*,::before,::after{
+  box-sizing: border-box;
+}
+
+body {
+  margin: auto;
+  padding: 0;
+  font-family: var(--body-font);
+  line-height: 1.6;
+
+}
+
+.introduction {
   display: flex;
-  flex-direction: column;
   align-items: center;
+  min-height: 80vh;
+  padding: 6rem;
+  width: 100%;
+  background-color: #e0e0e0;
+}
+
+.hero {
+  flex: 1;
+}
+
+.heroText h1 {
+  font-size: var(--hero-font);
+  font-weight: 900;
+  color: #000000;
+}
+
+.elipse {
+    flex: 1;
+}
+
+.elipse img {
+  width: 482px;
+  height: auto;
+}
+
+
+.project-button {
+  font-size: var(--other-font);
+  padding: 10px 5%;
+  border: 1px solid var(--body-text);
+  border-radius: 5px;
+  background-color: #000000;
+  color: var(--white);
+  cursor: pointer;
+}
+
+.project-button:hover {
+  background: #000000e1;
+  color: var(--white);
+}
+
+.about-container {
+  display: flex;
+  width: 80%;
+  text-align: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-top: 4rem;
+  padding: 5rem;
 }
 
-.App-link {
-  color: #61dafb;
+.aboutUs {
+  line-height: 1.6;
+  flex: 1;
+  text-align: start;
+  background-color: turquoise;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.team-image {
+  flex: 1;
+  background-color: turquoise;
+}
+
+.team-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+#beta {
+  font-size: var(--sub-font);
+  color: var(--main);
+}
+
+.aboutUs p {
+  font-size: var(--other-font);
+  color: var(--body-text);
 }

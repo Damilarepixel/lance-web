@@ -1,12 +1,22 @@
 import React from 'react'
+import Mobile from './mobile.png'
 
 function Alpha() {
     return (
-        <div>
-            <div className="heroText">
-                <h1>We create digital experiences that <br></br> <span className="txt-rotate" data-period="2000" data-rotate='[ "makes lives easier.", "innovates.", "transforms.", "unearths value." ]' ></span>
-                </h1>
+        <div className="introduction">
+            <div className="hero">
+              <div className="heroText">
+                  <h1>We create digital experiences that <br></br> <span className="txt-rotate" data-period="2000" data-rotate='[ "makes lives easier", "innovates", "transforms" ]' ></span>
+                  </h1>
+              </div>
+              <div class="main-button">
+                <button className="project-button">Start a Project</button>
             </div>
+            </div>
+
+            <div className="elipse">
+                <img src={Mobile} alt='mockup'  />
+              </div>
         </div>
     )
 }
@@ -46,7 +56,7 @@ var TxtRotate = function(el, toRotate, period) {
     } else if (this.isDeleting && this.txt === '') {
       this.isDeleting = false;
       this.loopNum++;
-      delta = 900;
+      delta = 800;
     }
   
     setTimeout(function() {
@@ -66,7 +76,7 @@ var TxtRotate = function(el, toRotate, period) {
     // INJECT CSS
     var css = document.createElement("style");
     css.type = "text/css";
-    css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #0d0f35}";
+    css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #ffffff}";
     
     document.body.appendChild(css);
 
