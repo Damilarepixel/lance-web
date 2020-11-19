@@ -13,6 +13,7 @@
   --body-font: 'Montserrat', sans-serif;
   --hero-font: 4.125rem;
   --sub-font: 2.125rem;
+  --beta: 1.125rem;
   --body-font: 0.9375rem;
   --other-font: 1.0625rem; 
 }
@@ -41,13 +42,14 @@ body {
   display: flex;
   align-items: center;
   min-height: 80vh;
-  padding: 6rem;
+  padding: 4rem;
   width: 100%;
   background-color: #e0e0e0;
 }
 
 .hero {
   flex: 1;
+  text-align: start;
 }
 
 .heroText h1 {
@@ -58,6 +60,7 @@ body {
 
 .elipse {
     flex: 1;
+    text-align: center;
 }
 
 .elipse img {
@@ -83,7 +86,7 @@ body {
 
 .about-container {
   display: flex;
-  width: 80%;
+  width: 90%;
   text-align: center;
   justify-content: center;
   margin-top: 4rem;
@@ -93,26 +96,73 @@ body {
 .aboutUs {
   line-height: 1.6;
   flex: 1;
-  text-align: start;
-  background-color: turquoise;
+  text-align: left;
+  margin-right: 8rem;
 }
 
-.team-image {
-  flex: 1;
-  background-color: turquoise;
-}
-
-.team-image img {
-  max-width: 100%;
-  height: auto;
-}
 
 #beta {
   font-size: var(--sub-font);
   color: var(--main);
+  font-weight: 600;
 }
 
 .aboutUs p {
   font-size: var(--other-font);
   color: var(--body-text);
+}
+
+.team-image {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 10px;
+  height: 700px;
+  flex: 1;
+  align-content: start;
+  padding: 10px;
+  
+}
+
+.container {
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.2);
+  background-color: #e0e0e0;
+  transition: .3s;
+  border-radius: 5px;
+  border-style: none;
+  text-align: justify;
+  padding: 15px;
+  height: 200px;
+  width: 200px;
+  cursor: pointer;
+}
+
+
+.container h3 {
+  font-size: var(--beta);
+  font-weight: 200;
+}
+
+#showcase {
+  font-size: var(--body-font);
+}
+
+.portfolio-container {
+  text-align: center;
+  justify-items: center;
+  background-color: #f8f6f6;
+}
+
+.grid {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 5rem;
+  grid-gap: 10px;
+}
+
+
+
+.image-div img {
+  border-radius: 5px;
+  width: 100%;
 }

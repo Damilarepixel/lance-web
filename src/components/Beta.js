@@ -1,5 +1,5 @@
 import React from 'react'
-import Workers from './workers.jpg'
+
 
 function Beta() {
     return (
@@ -8,11 +8,42 @@ function Beta() {
                 <h3 id="beta">
                     We design for humans
                 </h3>
-                <p>CKDigital is a world-class and Lagos-based digital agency, offering web design, digital marketing and branding services. After 7 years and over 400 projects, we are proud of our reputation for excellence, client service and success.</p>
+                <p>With our products ranging from user experience to product development, we build identities and enhance experiences.</p>
             </div>
 
             <div className="team-image">
-                <img src={Workers} alt='happy people' />
+                
+                    
+                    <div class="container">
+                        <h3>UI/UX</h3>
+                        {/* <br /> */}
+                        <p id="showcase">We anticipate what users might need to do and ensure that the interface has element that are easy to access.</p>                
+                    </div>
+                
+
+                
+                    <div class="container">
+                        <h3>BRANDING</h3>
+                        {/* <br /> */}
+                        <p id="showcase">We anticipate what users might need to do and ensure that the interface has element that are easy to access.</p>                
+                    </div>
+                
+
+                
+                    <div class="container">
+                        <h3>SOFTWARE DEVELOPMENT</h3>
+                        {/* <br /> */}
+                        <p id="showcase">We anticipate what users might need to do and ensure that the interface has element that are easy to access.</p>                
+                    </div>
+                
+
+                
+                    <div class="container">
+                        <h3>CONTENT STRATEGY</h3>
+                        {/* <br /> */}
+                        <p id="showcase">We anticipate what users might need to do and ensure that the interface has element that are easy to access.</p>                
+                    </div>
+                
             </div>
         </div>
     )
