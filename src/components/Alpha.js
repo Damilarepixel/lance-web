@@ -1,22 +1,20 @@
 import React from 'react'
-import Mobile from './mobile.png'
+
 
 function Alpha() {
     return (
         <div className="introduction">
             <div className="hero">
               <div className="heroText">
-                  <h1>We create digital experiences that <br></br> <span className="txt-rotate" data-period="2000" data-rotate='[ "makes lives easier", "innovates", "transforms" ]' ></span>
+                  <h1><span className="txt-rotate" data-period="2000" data-rotate='[ "From Concept", "To code", "To completion" ]' ></span>
                   </h1>
+
+                  <p>We help fortune 500 and 100 re-define digital processes from Ideation to deployment, we leverage on up-to-date technologies and problem solving skills, delivering optimum value.</p>
               </div>
               <div class="main-button">
                 <button className="project-button">Start a Project</button>
             </div>
             </div>
-
-            <div className="elipse">
-                <img src={Mobile} alt='mockup'  />
-              </div>
         </div>
     )
 }
