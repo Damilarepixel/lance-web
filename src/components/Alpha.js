@@ -6,10 +6,10 @@ function Alpha() {
         <div className="introduction">
             <div className="hero">
               <div className="heroText">
-                  <h1><span className="txt-rotate" data-period="2000" data-rotate='[ "From Concept", "To code", "To completion" ]' ></span>
+                  <h1><span className="txt-rotate" data-period="2000" data-rotate='[ "From Ideation", "To code", "To completion" ]' ></span>
                   </h1>
 
-                  <p>We help fortune 500 and 100 re-define digital processes from Ideation to deployment, we leverage on up-to-date technologies and problem solving skills, delivering optimum value.</p>
+                  <p className="description">We help fortune 500 and 100 re-define digital processes from Ideation to deployment, we leverage on up-to-date technologies and problem solving skills, delivering optimum value.</p>
               </div>
               <div class="main-button">
                 <button className="project-button">Start a Project</button>
