@@ -17,7 +17,7 @@ function Beta() {
                     
                     <div class="container">
                         <h5 id="tag">UI/UX</h5>
-                        {/* <br /> */}
+                        
                         <p id="showcase">We anticipate what users might need to do and ensure that the interface has element that are easy to access.</p>                
                     </div>
                 
@@ -25,7 +25,7 @@ function Beta() {
                 
                     <div class="container">
                         <h5 id="tag">BRANDING</h5>
-                        {/* <br /> */}
+                        
                         <p id="showcase">We anticipate what users might need to do and ensure that the interface has element that are easy to access.</p>                
                     </div>
                 
@@ -33,7 +33,7 @@ function Beta() {
                 
                     <div class="container">
                         <h5 id="tag">SOFTWARE DEVELOPMENT</h5>
-                        {/* <br /> */}
+                        
                         <p id="showcase">We anticipate what users might need to do and ensure that the interface has element that are easy to access.</p>                
                     </div>
                 
@@ -41,7 +41,7 @@ function Beta() {
                 
                     <div class="container">
                         <h5 id="tag">CONTENT STRATEGY</h5>
-                        {/* <br /> */}
+                        
                         <p id="showcase">We anticipate what users might need to do and ensure that the interface has element that are easy to access.</p>                
                     </div>
                 
