@@ -26,6 +26,10 @@ function Portfolio() {
                     <img src={Ux} alt="" />
                 </div>
             </div>
+
+            <div class="more-btn">
+                <button className="more">View more</button>
+            </div>
         </div>
     )
 }

@@ -13,7 +13,7 @@ function Alpha() {
               </div>
               <div class="main-button">
                 <button className="project-button">Start a Project</button>
-            </div>
+              </div>
             </div>
         </div>
     )

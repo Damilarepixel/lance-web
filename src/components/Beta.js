@@ -1,5 +1,5 @@
 import React from 'react'
-import Undraw from './undraw.png'
+
 
 
 function Beta() {
