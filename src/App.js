@@ -8,7 +8,7 @@ import './App.css';
 import Alpha from './components/Alpha'
 import Beta from './components/Beta'
 import Portfolio from './components/Portfolio'
-import Blog from './components/Blog'
+import Clients from './components/Clients'
 
 
 
@@ -18,7 +18,7 @@ function App() {
       <Alpha />
       <Beta />
       <Portfolio />
-      <Blog />
+      <Clients />
     </div>
   );
 }
