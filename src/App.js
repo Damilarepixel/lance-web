@@ -10,7 +10,7 @@ import Beta from './components/Beta'
 import Portfolio from './components/Portfolio'
 import Clients from './components/Clients'
 import Footer from './components/Footer'
-
+import Links from './components/Links'
 
 
 function App() {
@@ -21,6 +21,7 @@ function App() {
       <Portfolio />
       <Clients />
       <Footer />
+      <Links />
     </div>
   );
 }
